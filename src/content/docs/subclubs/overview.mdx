@@ -8,13 +8,27 @@ import { CardGrid } from '@astrojs/starlight/components';
 import ClubCard from '../../../components/ClubCard.svelte';
 import { Icon } from '@astrojs/starlight/components';
 
-### Returning Subclubs
+### Competitive Subclubs
 
 import inkandmetal from '../../../assets/subclubs/inkandmetal.jpg';
 
 <ClubCard name="Ink and Metal" description="FTC Robotics Team" src={inkandmetal.src} href="/subclubs/inkandmetal">
     <Icon name="external" size="2rem" />
 </ClubCard>
+
+import vex from '../../../assets/subclubs/default.png';
+
+<ClubCard name="VEX Robotics" description="Girls Only Robotics Teams" src={vex.src} href="/subclubs/ai">
+    <Icon name="external" size="2rem" />
+</ClubCard>
+
+import tsa from '../../../assets/subclubs/tsa.jpg';
+
+<ClubCard name="Technology Student Association" description="Gain leadership and technology skills!" src={tsa.src} href="/subclubs/ai">
+    <Icon name="external" size="2rem" />
+</ClubCard>
+
+### Educational Subclubs
 
 import ai from '../../../assets/subclubs/default.png';
 
@@ -45,5 +59,3 @@ import cloudnative from '../../../assets/subclubs/cloudnative.webp';
 <ClubCard name="Cloud Native Club" description="Learn About Cloud Computing" src={cloudnative.src} href="/subclubs/cloudnative">
     <Icon name="external" size="2rem" />
 </ClubCard>
-
-### New Subclubs

@@ -10,6 +10,10 @@ export default defineConfig({
     logo: {
       src: './src/assets/logo.png'
     },
+    editLink: {
+      baseUrl: "https://github.com/EpicPizza/AHS-Engineering-and-Technology-Website/blob/master/"
+    },
+    lastUpdated: true,
     title: 'AHS E&T',
     social: {
       discord: 'https://discord.gg/ncDdK4fdg2',
@@ -44,6 +48,14 @@ export default defineConfig({
         label: 'Ink and Metal',
         link: '/subclubs/inkandmetal/'
       },
+    {
+        label: 'VEX Robotics',
+        link: '/subclubs/vex/'
+      },
+    {
+        label: 'Technology Student Association',
+        link: '/subclubs/tsa/'
+      },
 	  {
         label: 'Artificial Intelligence Club',
         link: '/subclubs/ai/'
@@ -64,10 +76,6 @@ export default defineConfig({
         label: 'Cloud Native Club',
         link: '/subclubs/cloudnative/'
       },
-    {
-        label: 'Technology Student Association',
-        link: '/subclubs/tsa/'
-      }
     ]}],
     customCss: [
     // Path to your Tailwind base styles:
@@ -78,6 +86,32 @@ export default defineConfig({
         rel: "preconnect",
         href: "https://fonts.googleapis.com"
       }
+    }, {
+      tag: "script",
+      attrs: {
+        type: "module",
+      },
+      content:  `// Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCMYlWG4wTIQwJsdOrjj1EtzuEduLAgzVk",
+        authDomain: "ahs-eng-and-tech-club.firebaseapp.com",
+        projectId: "ahs-eng-and-tech-club",
+        storageBucket: "ahs-eng-and-tech-club.appspot.com",
+        messagingSenderId: "247371672850",
+        appId: "1:247371672850:web:6ecef3c569e5230386d7cb",
+        measurementId: "G-CXMQFY3QVS"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);`
     }, {
       tag: "link",
       attrs: {
