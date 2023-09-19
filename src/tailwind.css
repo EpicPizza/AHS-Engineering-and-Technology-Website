@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --sl-content-pad-x: 1.5rem;
+    --sl-nav-gap: 1rem;
+}
+
+@media (min-width: 32rem) {
+    :root {
+        --sl-content-pad-x: 3rem;   
+    }
+}
