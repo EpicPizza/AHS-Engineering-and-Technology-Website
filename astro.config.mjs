@@ -17,69 +17,86 @@ export default defineConfig({
     title: 'AHS E&T',
     social: {
       discord: 'https://discord.gg/ncDdK4fdg2',
-	    youtube: 'mailto:frc.skywalkers@gmail.com',
+      youtube: 'mailto:frc.skywalkers@gmail.com',
     },
     sidebar: [
-	{
-		label: 'Our Club',
-		items: [
-		// Each item here is one entry in the navigation menu.
-		{
-			label: 'About Us',
-			link: '/about'
-		},
-		{
-			label: 'Our Team',
-			link: '/team'
-		},
-		{
-			label: 'Events',
-			link: '/events'
-		}]
-	},{
-      label: 'Our Subclubs',
-      items: [
-      // Each item here is one entry in the navigation menu.
       {
-        label: 'Overview',
-        link: '/subclubs/overview/'
-      },
-	  {
-        label: 'Ink and Metal',
-        link: '/subclubs/inkandmetal/'
-      },
-    {
-        label: 'VEX Robotics',
-        link: '/subclubs/vex/'
-      },
-    {
-        label: 'Technology Student Association',
-        link: '/subclubs/tsa/'
-      },
-	  {
-        label: 'Artificial Intelligence Club',
-        link: '/subclubs/ai/'
-      },
-	  {
-        label: 'Eagle Explorer',
-        link: '/subclubs/eagleexplorer/'
-      },
-	  {
-        label: 'Girls Who Code',
-        link: '/subclubs/gwc/'
-      },
-	  {
-        label: 'Innovator\'s Club',
-        link: '/subclubs/innovators/'
-      },
-    {
-        label: 'Cloud Native Club',
-        link: '/subclubs/cloudnative/'
-      },
-    ]}],
+        label: 'Our Club',
+        items: [
+          // Each item here is one entry in the navigation menu.
+          {
+            label: 'About Us',
+            link: '/about'
+          },
+          {
+            label: 'Our Team',
+            link: '/team'
+          },
+          {
+            label: 'Events',
+            link: '/events'
+          }]
+      }, {
+        label: 'Our Subclubs',
+        items: [
+          // Each item here is one entry in the navigation menu.
+          {
+            label: 'Overview',
+            link: '/subclubs/overview/'
+          },
+          {
+            label: 'Ink and Metal',
+            link: '/subclubs/inkandmetal/'
+          },
+          {
+            label: 'VEX Robotics',
+            link: '/subclubs/vex/'
+          },
+          {
+            label: 'Technology Student Association',
+            link: '/subclubs/tsa/'
+          },
+          {
+            label: 'Bioengineering Club',
+            link: '/subclubs/bioe/'
+          },
+          {
+            label: 'Artificial Intelligence Club',
+            link: '/subclubs/ai/'
+          },
+          {
+            label: 'Eagle Explorer',
+            link: '/subclubs/eagleexplorer/'
+          },
+          {
+            label: 'Girls Who Code',
+            link: '/subclubs/gwc/'
+          },
+          {
+            label: 'Innovator\'s Club',
+            link: '/subclubs/innovators/'
+          },
+          {
+            label: 'Cloud Native Club',
+            link: '/subclubs/cloudnative/'
+          },
+          {
+            label: 'Web3 Club',
+            link: '/subclubs/web3/'
+          },
+          {
+            label: 'Computational Statistics Club',
+            link: '/subclubs/compstats/'
+          },
+          {
+            label: 'Quantum Computing Club',
+            link: '/subclubs/qcc/'
+          },
+        ]
+      }],
     customCss: [
-    // Path to your Tailwind base styles:
-    './src/tailwind.css'],
+      // Path to your Tailwind base styles:
+      './src/tailwind.css'],
     head: [{
       tag: "link",
       attrs: {
@@ -91,7 +108,7 @@ export default defineConfig({
       attrs: {
         type: "module",
       },
-      content:  `// Import the functions you need from the SDKs you need
+      content: `// Import the functions you need from the SDKs you need
       import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
       import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
       // TODO: Add SDKs for Firebase products that you want to use
