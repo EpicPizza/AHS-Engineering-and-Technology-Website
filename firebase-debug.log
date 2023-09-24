@@ -1,0 +1,10 @@
+[debug] [2023-09-24T21:02:59.029Z] ----------------------------------------------------------------------
+[debug] [2023-09-24T21:02:59.030Z] Command:       /usr/local/bin/node /Users/alejandroestrella/Documents/ProjectFiles/AHS-Engineering-and-Technology-Website/node_modules/.bin/firebase login
+[debug] [2023-09-24T21:02:59.030Z] CLI Version:   12.5.4
+[debug] [2023-09-24T21:02:59.030Z] Platform:      darwin
+[debug] [2023-09-24T21:02:59.030Z] Node Version:  v18.17.0
+[debug] [2023-09-24T21:02:59.031Z] Time:          Sun Sep 24 2023 14:02:59 GMT-0700 (Pacific Daylight Time)
+[debug] [2023-09-24T21:02:59.031Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
