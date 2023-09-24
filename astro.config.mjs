@@ -8,7 +8,7 @@ import svelte from "@astrojs/svelte";
 export default defineConfig({
   integrations: [starlight({
     logo: {
-      src: './src/assets/logo.png'
+      src: './public/favicon.png'
     },
     editLink: {
       baseUrl: "https://github.com/EpicPizza/AHS-Engineering-and-Technology-Website/blob/master/"
@@ -17,7 +17,7 @@ export default defineConfig({
     title: 'AHS E&T',
     social: {
       discord: 'https://discord.gg/ncDdK4fdg2',
-      youtube: 'mailto:frc.skywalkers@gmail.com',
+      youtube: 'https://www.youtube.com/@ahsengandtech',
     },
     sidebar: [
       {
@@ -98,6 +98,12 @@ export default defineConfig({
       attrs: {
         rel: "preconnect",
         href: "https://fonts.googleapis.com"
+      }
+    }, {
+      tag: "link",
+      attrs: {
+        rel: "icon",
+        href: "/favicon.png"
       }
     }, {
       tag: "script",
