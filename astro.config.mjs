@@ -29,12 +29,8 @@ export default defineConfig({
             link: '/about'
           },
           {
-            label: 'Our Team',
-            link: '/team'
-          },
-          {
-            label: 'Events',
-            link: '/events'
+            label: 'Guest Speakers',
+            link: '/guest-speakers'
           }]
       }, {
         label: 'Our Subclubs',

@@ -3,7 +3,7 @@ title: AHS Engineering & Technology Club
 description: Learn about our robotics team, educational clubs, and competitive clubs!
 template: splash
 hero:
-  tagline: Learn about our educational and competition clubs!
+  tagline: Learn about our educational and competitive subclubs!
   image:
     file: ../../assets/logo.png
   actions:
@@ -11,27 +11,22 @@ hero:
       link: /subclubs/overview
       icon: right-arrow
       variant: primary
-    - text: Officer Applications
-      link: /main/apps
+    - text: About Us
+      link: /about
       icon: external
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
+### Upcoming Meetings
 
-## More About Our Club
+import Schedule from '../../components/Schedule.svelte';
 
-<CardGrid stagger>
-	<Card title="Random Fact 1" icon="rocket">
-		This is a random fact about our club.
-	</Card>
-	<Card title="Random Fact 2" icon="rocket">
-		This is a random fact about our club.
-	</Card>
-	<Card title="Random Fact 3" icon="rocket">
-		This is a random fact about our club.
-	</Card>
-	<Card title="Random Fact 4" icon="rocket">
-		This is a random fact about our club.
-	</Card>
+<CardGrid>
+	<Schedule order={0} client:visible></Schedule>
+	<Schedule order={1} client:visible></Schedule>
+	<Schedule order={2} client:visible></Schedule>
+	<Schedule order={3} client:visible></Schedule>
+	<Schedule order={4} client:visible></Schedule>
+	<Schedule order={5} client:visible></Schedule>
 </CardGrid>
