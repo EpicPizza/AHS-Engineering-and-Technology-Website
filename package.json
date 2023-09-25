@@ -8,6 +8,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "deploy": "firebase deploy",
     "serve": "npm run build && firebase logout && firebase login && firebase deploy"
   },
   "dependencies": {

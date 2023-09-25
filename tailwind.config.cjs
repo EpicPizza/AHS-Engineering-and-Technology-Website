@@ -21,6 +21,9 @@ module.exports = {
 					950: '#000000'
 				},
 				gray: colors.neutral,
+			},
+			fontFamily: {
+				sans: ['"Roboto Slab"'],
 			}
 		}
 	},

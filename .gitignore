@@ -21,3 +21,5 @@ pnpm-debug.log*
 .DS_Store
 
 .firebase
+
+firebase-debug.log
