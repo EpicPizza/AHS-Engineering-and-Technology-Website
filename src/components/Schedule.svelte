@@ -72,7 +72,7 @@
 {#if !empty}
     <div class="card not-content relative {order == 0 ? "bg-accent-600 dark:bg-accent-200 rounded-lg" : "border-[1px] border-neutral-300 dark:border-neutral-700"} p-4 md:p-6 flex {loading ? "items-center justify-around" : "flex-col"} gap-1 md:gap-1.5 w-full">
         {#if loading}
-            <div class="w-8 h-8 my-8 border-[3px] border-b-transparent border-l-transparent border-r-transparent {order == 0 ? "border-t-white dark:border-t-dark" : "border-t-black dark:border-t-white"} rounded-full animate-spin"></div>
+            <div class="w-8 h-8 my-8 border-[3px] border-b-transparent border-l-transparent border-r-transparent {order == 0 ? "border-t-white dark:border-t-black" : "border-t-black dark:border-t-white"} rounded-full animate-spin"></div>
         {:else}
             <p class="{order == 0 ? "text-white dark:text-black" : ""} md:text-lg">{date}</p>
             <h4 class="{order == 0 ? "text-white dark:text-black" : ""} text-xl md:text-2xl">{name}</h4>
