@@ -18,6 +18,8 @@ export default defineConfig({
     social: {
       discord: 'https://discord.gg/ncDdK4fdg2',
       youtube: 'https://www.youtube.com/@ahsengandtech',
+      facebook: 'https://www.facebook.com/groups/213303255403592',
+      email: 'mailto:contact@ahsengineering.org',
     },
     sidebar: [
       {
