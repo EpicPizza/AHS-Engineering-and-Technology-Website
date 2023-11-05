@@ -6,6 +6,7 @@ import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://ahsengineering.org',
   integrations: [starlight({
     logo: {
       src: './public/favicon.png'
