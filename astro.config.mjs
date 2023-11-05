@@ -9,7 +9,8 @@ export default defineConfig({
   site: 'https://ahsengineering.org',
   integrations: [starlight({
     logo: {
-      src: './public/favicon.png'
+      src: './public/favicon.png',
+      alt: 'Logo'
     },
     editLink: {
       baseUrl: "https://github.com/EpicPizza/AHS-Engineering-and-Technology-Website/blob/master/"
