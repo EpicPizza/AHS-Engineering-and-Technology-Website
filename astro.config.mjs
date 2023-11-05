@@ -21,6 +21,7 @@ export default defineConfig({
       discord: 'https://discord.gg/ncDdK4fdg2',
       youtube: 'https://www.youtube.com/@ahsengandtech',
       facebook: 'https://www.facebook.com/groups/213303255403592',
+      instagram: 'https://www.instagram.com/ahs_ent',
       email: 'mailto:contact@ahsengineering.org',
     },
     sidebar: [
