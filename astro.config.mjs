@@ -24,6 +24,9 @@ export default defineConfig({
       instagram: 'https://www.instagram.com/ahs_ent',
       email: 'mailto:contact@ahsengineering.org',
     },
+    components: {
+      Hero: './src/components/Hero.astro',
+    },
     sidebar: [
       {
         label: 'Our Club',
@@ -36,6 +39,10 @@ export default defineConfig({
           {
             label: 'Guest Speakers',
             link: '/guest-speakers'
+          },
+          {
+            label: 'E&T Expo',
+            link: '/expo'
           }]
       }, {
         label: 'Our Subclubs',
