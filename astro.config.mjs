@@ -7,6 +7,21 @@ import svelte from "@astrojs/svelte";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://ahsengineering.org',
+  redirects: {
+    '/subclubs/inkandmetal': '/branch/inkandmetal',
+    '/subclubs/vex': '/branch/vex',
+    '/subclubs/tsa': '/branch/tsa',
+    '/subclubs/bioe': '/branch/bioe',
+    '/subclubs/ai': '/branch/ai',
+    '/subclubs/eagleexplorer': '/branch/eagleexplorer',
+    '/subclubs/gwc': '/branch/gwc',
+    '/subclubs/innovators': '/branch/innovators',
+    '/subclubs/cloudnative': '/branch/cloudnative',
+    '/subclubs/web3': '/branch/web3',
+    '/subclubs/compstats': '/branch/compstats',
+    '/subclubs/qcc': '/branch/qcc',
+    '/subclubs/overview': '/branch/overview',
+  },
   integrations: [starlight({
     logo: {
       src: './public/favicon.png',
@@ -39,66 +54,54 @@ export default defineConfig({
           {
             label: 'Guest Speakers',
             link: '/guest-speakers'
-          },
-          {
-            label: 'E&T Expo',
-            link: '/expo'
           }]
       }, {
-        label: 'Our Subclubs',
+        label: 'Our Branches',
         items: [
           // Each item here is one entry in the navigation menu.
           {
             label: 'Overview',
-            link: '/subclubs/overview/'
+            link: '/branch/overview/'
           },
           {
             label: 'Ink and Metal',
-            link: '/subclubs/inkandmetal/'
+            link: '/branch/inkandmetal/'
           },
           {
             label: 'VEX Robotics',
-            link: '/subclubs/vex/'
+            link: '/branch/vex/'
           },
           {
-            label: 'Technology Student Association',
-            link: '/subclubs/tsa/'
+            label: 'Space Pickles',
+            link: '/branch/rocketry/'
           },
           {
-            label: 'Bioengineering Club',
-            link: '/subclubs/bioe/'
+            label: 'Rotationaries',
+            link: '/branch/rotationaries/'
           },
           {
-            label: 'Artificial Intelligence Club',
-            link: '/subclubs/ai/'
-          },
-          {
-            label: 'Eagle Explorer',
-            link: '/subclubs/eagleexplorer/'
+            label: 'Artificial Intelligence',
+            link: '/branch/ai/'
           },
           {
             label: 'Girls Who Code',
-            link: '/subclubs/gwc/'
+            link: '/branch/gwc/'
           },
           {
-            label: 'Innovator\'s Club',
-            link: '/subclubs/innovators/'
+            label: 'Innovators!',
+            link: '/branch/innovators/'
           },
           {
-            label: 'Cloud Native Club',
-            link: '/subclubs/cloudnative/'
+            label: 'Society of Women’s Engineers',
+            link: '/branch/swenext/'
           },
           {
-            label: 'Web3 Club',
-            link: '/subclubs/web3/'
+            label: 'App Developemnt',
+            link: '/branch/appdev/'
           },
           {
-            label: 'Computational Statistics Club',
-            link: '/subclubs/compstats/'
-          },
-          {
-            label: 'Quantum Computing Club',
-            link: '/subclubs/qcc/'
+            label: 'Computer-Aided Design (CAD)',
+            link: '/branch/cad/'
           },
         ]
       }],
