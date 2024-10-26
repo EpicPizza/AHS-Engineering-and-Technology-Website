@@ -96,7 +96,7 @@ export default defineConfig({
             link: '/branch/eagleexplorer'
           },
           {
-            label: 'Society of Women’s Engineers',
+            label: 'Society of Women Engineers',
             link: '/branch/swenext/'
           },
           {

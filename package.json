@@ -9,7 +9,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "deploy": "firebase deploy",
-    "serve": "npm run build && firebase logout && firebase login && firebase deploy"
+    "serve": "npm run build && firebase logout && firebase login && firebase deploy",
+    "quick": "npm run build && firebase deploy"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.12.0",
