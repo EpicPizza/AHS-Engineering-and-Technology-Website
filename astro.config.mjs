@@ -54,7 +54,12 @@ export default defineConfig({
           {
             label: 'Guest Speakers',
             link: '/guest-speakers'
-          }]
+          },
+          {
+            label: 'Aeries Grades+',
+            link: '/extension'
+          }
+        ]
       }, {
         label: 'Our Branches',
         items: [
