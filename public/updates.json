@@ -49,6 +49,10 @@
           {
             "version": "0.4.2",
             "update_link": "https://ahsengineering.org/extension/380ec7e640a64709874c-0.4.2.xpi"
+          },
+          {
+            "version": "0.4.3",
+            "update_link": "https://ahsengineering.org/extension/380ec7e640a64709874c-0.4.3.xpi"
           }
         ]
       }
